@@ -1,0 +1,14 @@
+- name: Documentation
+  href: docs/
+  homepage: docs/index.md
+- name: Api
+  href: api/
+  homepage: api/index.md
+- name: Contribute
+  href: contribute/
+  homepage: contribute/index.md
+- name: Articles
+  href: articles/
+  homepage: articles/2020-07-16-article-on-elevated-values.md
+- name: Book
+  href: book.md
