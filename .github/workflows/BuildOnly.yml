@@ -1,10 +1,9 @@
-name: Build website
+name: BuildOnly
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches-ignore:
+      - main
 
 jobs:
   build:
@@ -52,9 +51,3 @@ jobs:
         
       - name: 'Build DynamicData Website'
         run: ./build.cmd BuildWebsite
-
-      - name: 'Deploy netlify'
-        if: ${{ github.event_name != 'pull_request' }}
-        run: |
-            npm install -g netlify-cli
-            netlify deploy --auth=${{ secrets.NETLIFY_DEPLOY_KEY }} --site=${{ secrets.NETLIFY_SITE_ID }} --prod --dir=DynamicData/_site
