@@ -1,0 +1,19 @@
+- name: Contribute
+  href: index.md
+- name: Community
+  href: Community/toc.yml
+- name: Compiling DynamicData
+  href: Compiling-DynamicData/toc.yml
+- name: Content Style Guide
+  href: Content-Style-Guide/toc.yml
+- name: Design
+  href: Design/toc.yml
+- name: Developer Experience
+  href: Developer-Experience/toc.yml
+- name: Features and Patches
+  href: Features-and-Patches/toc.yml
+- name: Maintainers
+  href: Maintainers/toc.yml
+- name: Software Style Guide
+  href: Software-Style-Guide/toc.yml
+  homepage: Software-Style-Guide/code-style.md
